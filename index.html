@@ -118,7 +118,7 @@ footer{padding:36px 0 56px;text-align:center;color:var(--muted);font-size:14px}
 <h1>Turning Data Into Insights. <span>Building Technology That Matters.</span></h1>
 <p class="sub">I'm Shreya, an AI &amp; Data Science student passionate about Data Analytics, Data Engineering, and intelligent solutions.</p>
 <div class="role" aria-live="polite">I'm a <span id="type"></span><i class="caret"></i></div>
-<div class="btns"><a class="btn pri" href="#" id="resume">Download Resume</a><a class="btn" href="#work">Explore My Work</a><a class="btn" href="#contact">Contact Me</a></div>
+<div class="btns"><a class="btn pri" href="Shreya_Jadhav_Resume.pdf" download="Shreya_Jadhav_Resume.pdf">Download Resume</a><a class="btn" href="#work">Explore My Work</a><a class="btn" href="#contact">Contact Me</a></div>
 <div class="soc">
 <a href="https://www.linkedin.com/in/shreya-jadhav-264286300" aria-label="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5 2.5 2.5 0 01.02-5zM3 9.75h4V21H3zM9.75 9.75h3.8v1.6h.06c.53-1 1.82-2.05 3.75-2.05 4 0 4.74 2.63 4.74 6.05V21h-4v-4.9c0-1.17 0-2.67-1.63-2.67s-1.88 1.27-1.88 2.58V21h-4z"/></svg></a>
 <a href="https://github.com/jadhavshreya010-stack" aria-label="GitHub" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 00-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.9.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.5 9.5 0 015 0c1.9-1.29 2.74-1.02 2.74-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.93.36.31.68.92.68 1.85v2.75c0 .27.18.58.69.48A10 10 0 0012 2z"/></svg></a>
@@ -215,7 +215,7 @@ document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{
 document.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-selected',x===b));
 document.querySelectorAll('.proj').forEach((p,i)=>p.classList.toggle('on',i==b.dataset.i))});
 
-document.getElementById('resume').onclick=e=>{e.preventDefault();window.print()};
+
 
 const cv=document.getElementById('bg'),x=cv.getContext('2d');let W,H,pts=[],m={x:-999,y:-999};
 const still=matchMedia('(prefers-reduced-motion:reduce)').matches;
